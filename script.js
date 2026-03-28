@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Compose WhatsApp message
       const message = encodeURIComponent(
-        `Hello J.N.S.D. Education Centre!\n\n` +
+        `Hello M.P Adarsh Highschool !\n\n` +
         `I am interested in admission for my child.\n\n` +
         `Parent's Name: ${parentName}\n` +
         `Phone: ${phone}\n` +
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `Please share the admission details. Thank you!`
       );
 
-      const whatsappURL = `https://wa.me/916392891970?text=${message}`;
+      const whatsappURL = `https://wa.me/919984478540?text=${message}`;
 
       // Show success feedback
       const btn = admissionForm.querySelector('button[type="submit"]');
